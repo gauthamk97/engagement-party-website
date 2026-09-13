@@ -9,6 +9,8 @@
   --gold-light: #d9be94;
   --blush: #e7b9b0;
   --terracotta: #c07856;
+  --sage: #5f7d54;
+  --sage-light: #c3d3b9;
   --white: #ffffff;
   --shadow: 0 20px 45px -20px rgba(46, 42, 38, 0.35);
   --radius: 18px;
@@ -328,6 +330,12 @@ img { max-width: 100%; display: block; }
 
 .menu-list li:last-child { border-bottom: none; }
 
+.tags {
+  display: flex;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
 .diet-tag {
   font-size: 0.68rem;
   text-transform: uppercase;
@@ -338,6 +346,12 @@ img { max-width: 100%; display: block; }
   padding: 2px 9px;
   flex-shrink: 0;
   white-space: nowrap;
+}
+
+.diet-tag.tag-veg,
+.diet-tag.tag-vegan {
+  color: var(--sage);
+  border-color: var(--sage-light);
 }
 
 .menu-note {
