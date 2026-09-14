@@ -251,7 +251,7 @@ img { max-width: 100%; display: block; }
 }
 
 .detail-row:nth-child(-n+2) { padding-top: 0; }
-.detail-row:last-child { border-bottom: none; padding-bottom: 0; }
+.detail-row:nth-last-child(-n+2) { border-bottom: none; padding-bottom: 0; }
 
 .detail-label {
   margin-bottom: 10px;
