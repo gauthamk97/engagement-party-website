@@ -270,6 +270,11 @@ img { max-width: 100%; display: block; }
 
 .detail-content p:last-child { margin-bottom: 0; }
 
+.detail-content .footnote {
+  font-size: 0.82rem;
+  font-style: italic;
+}
+
 .detail-content a {
   color: var(--gold);
   text-decoration: underline;
